@@ -1,0 +1,210 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+*,*:before,*:after {
+	box-sizing: border-box;
+}
+
+* {
+	font-family: "微軟正黑體",sans-serif;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+.header {
+	padding: 48px 0 24px;
+	border-bottom: 2px solid #000;
+}
+.header h1{
+	font-size: 80px;
+	line-height: 90px;
+	width: 288px;
+}
+img{
+	display: block;
+}
+.content_title{
+	display: flex;
+	align-items: center;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #000;
+	margin-bottom: 16px;
+}
+.l-med-title{
+	font-size: 32px;
+	line-height: 45px;
+	font-weight: 600;
+}
+.l-sm-title{
+	color: #A00404;
+	margin-left: 16px;
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 500;
+}
+.l-dot{
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background-color: #96A9C4;
+	margin: 8px 16px;
+	position: relative;
+}
+.l-text, .experience_main h4, .footer li{
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: lighter;
+}
+.intro{ 
+	margin-bottom: 24px;
+}
+.intro_item{
+	padding-left: 48px;
+}
+.content li{
+	display: flex;
+}
+.edu_line{
+	width: 1px;
+	height: 66px;
+	background-color: #96A9C4;
+	position: absolute;
+	left: 8px;
+	top: 8px;
+}
+.wrap {
+	position: relative;
+}
+.background{
+	background: #96A9C4;
+	width: 100%;
+	position: absolute;
+	top: 70px;
+	bottom: 70px;
+	z-index: -1;
+}
+.skills{
+	background: #415165;
+	padding: 24px 102px 56px;
+}
+.skills_title, .footer_title{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 40px;
+}
+.skills ul{
+	width: 216px;
+	margin: 0 auto;
+	border-left: 1px solid #fff;
+	padding-left: 24px;
+}
+.skills li{
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: 100;
+	color: #fff;
+}
+.experience_title{
+	margin-bottom: 22px;
+}
+.experience_main{
+	margin-left: 24px;
+	border-left: 1px solid #96A9C4;
+	padding-left: 24px;
+}
+.color-white {
+	color: #fff;
+}
+.mb48{
+	margin-bottom: 48px;
+}
+.mb8{
+	margin-bottom: 8px;
+}
+.mb32{
+	margin-bottom: 32px;
+}
+.mb72{
+	margin-bottom: 72px;
+}
+.experience_main h4{
+	font-weight: 600;
+}
+.experience_main p{
+	font-size: 20px;
+	line-height: 30px;
+	width: 642px;
+}
+.footer{
+	background: #415165;
+	padding: 24px 0 48px;
+}
+.footer li{
+	display: flex;
+	justify-content: center;
+}
+.footer p{
+	margin-bottom: 16px;
+}
+.footer a{
+	color: #fff;
+	text-decoration:none;
+}
+.footer img{
+	padding-right: 24px;
+}
+
+
+
